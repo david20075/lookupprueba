@@ -1,0 +1,1173 @@
+[
+  {
+    "type": "title",
+    "required": false,
+    "label": "Diligencia la encuesta",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "condicional": {
+      "label": "",
+      "value_conditional": "",
+      "state": false
+    }
+  },
+  {
+    "type": "input",
+    "required": false,
+    "label": "¿Cuál es tu edad?",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "condicional": {
+      "label": "",
+      "value_conditional": "",
+      "state": false
+    }
+  },
+  {
+    "type": "input",
+    "required": false,
+    "label": "¿Cuál es tu ciudad natal?",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "condicional": {
+      "label": "",
+      "value_conditional": "",
+      "state": false
+    }
+  },
+  {
+    "type": "input",
+    "required": false,
+    "label": "¿Cuál es tu ciudad de residencia actualmente?",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "condicional": {
+      "label": "",
+      "value_conditional": "",
+      "state": false
+    }
+  },
+  {
+    "type": "radio",
+    "required": false,
+    "label": "¿Tienes familiares en otras ciudades que dependan económicamente de ti o tú de ellos? ",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "data": [
+      {
+        "label": "Si",
+        "value": "1",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "No",
+        "value": "2",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      }
+    ],
+    "condicional": {
+      "label": "",
+      "value_conditional": "",
+      "state": false
+    }
+  },
+  {
+    "type": "input",
+    "required": false,
+    "label": "¿En qué ciudades se encuentran?",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "condicional": {
+      "label": "¿Tienes familiares en otras ciudades que dependan económicamente de ti o tú de ellos? ",
+      "value_conditional": "1",
+      "state": false
+    },
+    "value_conditional": "1"
+  },
+  {
+    "type": "select",
+    "required": false,
+    "label": "¿Qué tan seguido recibes giros de otras ciudades?",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "gs": false,
+    "data": [
+      {
+        "label": "Semanalmente",
+        "value": "Semanalmente",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "Quincenalmente",
+        "value": "Quincenalmente",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "Mensualmente",
+        "value": "Mensualmente",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "Esporádicamente",
+        "value": "Esporádicamente",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "Nunca",
+        "value": "Nunca",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      }
+    ],
+    "condicional": {
+      "label": "",
+      "value_conditional": "",
+      "state": false
+    }
+  },
+  {
+    "type": "input",
+    "required": false,
+    "label": "¿Por cuál medio o entidad es recibido o enviado el dinero?",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "condicional": {
+      "label": "",
+      "value_conditional": "",
+      "state": false
+    }
+  },
+  {
+    "type": "input",
+    "required": false,
+    "label": "¿Cuantos hijos tienes?",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "condicional": {
+      "label": "",
+      "value_conditional": "",
+      "state": false
+    }
+  },
+  {
+    "type": "boxes",
+    "required": false,
+    "label": "¿Cuáles son tus fuentes de ingreso?",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "data": [
+      {
+        "label": "Recibo apoyo económico de mis padres",
+        "value": "Recibo apoyo económico de mis padres",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "Recibo apoyo económico de otros familiares (Tíos, primos, hermanos)",
+        "value": "Recibo apoyo económico de otros familiares (Tíos, primos, hermanos)",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "Trabajo tiempo completo",
+        "value": "Trabajo tiempo completo",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "Trabajo medio tiempo",
+        "value": "Trabajo medio tiempo",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      }
+    ],
+    "condicional": {
+      "label": "",
+      "value_conditional": "",
+      "state": false
+    }
+  },
+  {
+    "type": "input",
+    "required": false,
+    "label": "Otro / ¿Cuál?",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "condicional": {
+      "label": "",
+      "value_conditional": "",
+      "state": false
+    }
+  },
+  {
+    "type": "title",
+    "required": false,
+    "label": "Aproximadamente qué porcentaje de tus ingresos destinas a:",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "condicional": {
+      "label": "",
+      "value_conditional": "",
+      "state": false
+    }
+  },
+  {
+    "type": "input",
+    "required": false,
+    "label": "Mercado o comida",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "condicional": {
+      "label": "",
+      "value_conditional": "",
+      "state": false
+    }
+  },
+  {
+    "type": "input",
+    "required": false,
+    "label": "Transporte",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "condicional": {
+      "label": "",
+      "value_conditional": "",
+      "state": false
+    }
+  },
+  {
+    "type": "input",
+    "required": false,
+    "label": "Entretenimiento",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "condicional": {
+      "label": "",
+      "value_conditional": "",
+      "state": false
+    }
+  },
+  {
+    "type": "input",
+    "required": false,
+    "label": "Estudio (Pago de tu carrera)",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "condicional": {
+      "label": "",
+      "value_conditional": "",
+      "state": false
+    }
+  },
+  {
+    "type": "input",
+    "required": false,
+    "label": "Materiales y/o herramientas de estudio",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "condicional": {
+      "label": "",
+      "value_conditional": "",
+      "state": false
+    }
+  },
+  {
+    "type": "input",
+    "required": false,
+    "label": "Otro / ¿Cuál?",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "condicional": {
+      "label": "",
+      "value_conditional": "",
+      "state": false
+    }
+  },
+  {
+    "type": "select",
+    "required": false,
+    "label": "¿Qué tipo de plan tienes en tu celular?",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "gs": false,
+    "data": [
+      {
+        "label": "Postpago con internet y minutos",
+        "value": "Postpago con internet y minutos",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "Postpago con internet únicamente",
+        "value": "Postpago con internet únicamente",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "Postpago con minutos únicamente",
+        "value": "Postpago con minutos únicamente",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "Prepago y recargo para tener internet / minutos",
+        "value": "Prepago y recargo para tener internet / minutos",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "Prepago y nunca recargo",
+        "value": "Prepago y nunca recargo",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      }
+    ],
+    "condicional": {
+      "label": "",
+      "value_conditional": "",
+      "state": false
+    }
+  },
+  {
+    "type": "input",
+    "required": false,
+    "label": "¿Qué programa o carrera profesional estudias?",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "condicional": {
+      "label": "",
+      "value_conditional": "",
+      "state": false
+    }
+  },
+  {
+    "type": "select",
+    "required": false,
+    "label": "¿Qué semestre cursas actualmente?",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "gs": false,
+    "data": [
+      {
+        "label": "1",
+        "value": "1",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "2",
+        "value": "2",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "3",
+        "value": "3",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "4",
+        "value": "4",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "5",
+        "value": "5",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "6",
+        "value": "6",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "7",
+        "value": "7",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "8",
+        "value": "8",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "9",
+        "value": "9",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "10",
+        "value": "10",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "11",
+        "value": "11",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "12",
+        "value": "12",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      }
+    ],
+    "condicional": {
+      "label": "",
+      "value_conditional": "",
+      "state": false
+    }
+  },
+  {
+    "type": "select",
+    "required": false,
+    "label": "¿En qué jornada estudias?",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "gs": false,
+    "data": [
+      {
+        "label": "Diurna",
+        "value": "Diurna",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "Nocturna",
+        "value": "Nocturna",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "Virtual",
+        "value": "Virtual",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      }
+    ],
+    "condicional": {
+      "label": "",
+      "value_conditional": "",
+      "state": false
+    }
+  },
+  {
+    "type": "select",
+    "required": false,
+    "label": "¿A cuántos de tus compañeros de estudio consideras de confianza o amigos?",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "gs": false,
+    "data": [
+      {
+        "label": "1",
+        "value": "1",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "2",
+        "value": "2",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "3",
+        "value": "3",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "4",
+        "value": "4",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "5",
+        "value": "5",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "6 o más",
+        "value": "6",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      }
+    ],
+    "condicional": {
+      "label": "",
+      "value_conditional": "",
+      "state": false
+    }
+  },
+  {
+    "type": "title",
+    "required": false,
+    "label": "Menciona con nombre propio los 3 puntos más concurridos por ti y tu grupo de amigos, cercanos a la Universidad.",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "condicional": {
+      "label": "",
+      "value_conditional": "",
+      "state": false
+    }
+  },
+  {
+    "type": "input",
+    "required": false,
+    "label": "Primero",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "condicional": {
+      "label": "",
+      "value_conditional": "",
+      "state": false
+    }
+  },
+  {
+    "type": "input",
+    "required": false,
+    "label": "Segundo",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "condicional": {
+      "label": "",
+      "value_conditional": "",
+      "state": false
+    }
+  },
+  {
+    "type": "input",
+    "required": false,
+    "label": "Tercero",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "condicional": {
+      "label": "",
+      "value_conditional": "",
+      "state": false
+    }
+  },
+  {
+    "type": "title",
+    "required": false,
+    "label": "De 1 a 5, dónde 1 es poco y 5 mucho, ¿Qué tanto te gustaría....",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "condicional": {
+      "label": "",
+      "value_conditional": "",
+      "state": false
+    }
+  },
+  {
+    "type": "select",
+    "required": false,
+    "label": "Ahorrar",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "gs": false,
+    "data": [
+      {
+        "label": "1",
+        "value": "1",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "2",
+        "value": "2",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "3",
+        "value": "3",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "4",
+        "value": "4",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "5",
+        "value": "5",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      }
+    ],
+    "condicional": {
+      "label": "",
+      "value_conditional": "",
+      "state": false
+    }
+  },
+  {
+    "type": "select",
+    "required": false,
+    "label": "Ganar dinero por inversión",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "gs": false,
+    "data": [
+      {
+        "label": "1",
+        "value": "1",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "2",
+        "value": "2",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "3",
+        "value": "3",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "4",
+        "value": "4",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "5",
+        "value": "5",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      }
+    ],
+    "condicional": {
+      "label": "",
+      "value_conditional": "",
+      "state": false
+    }
+  },
+  {
+    "type": "select",
+    "required": false,
+    "label": "Pagar sin dinero en efectivo ",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "gs": false,
+    "data": [
+      {
+        "label": "1",
+        "value": "1",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "2",
+        "value": "2",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "3",
+        "value": "3",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "4",
+        "value": "4",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "5",
+        "value": "5",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      }
+    ],
+    "condicional": {
+      "label": "",
+      "value_conditional": "",
+      "state": false
+    }
+  },
+  {
+    "type": "select",
+    "required": false,
+    "label": "Transferir plata desde el celular",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "gs": false,
+    "data": [
+      {
+        "label": "1",
+        "value": "1",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "2",
+        "value": "2",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "3",
+        "value": "3",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "4",
+        "value": "4",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "5",
+        "value": "5",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      }
+    ],
+    "condicional": {
+      "label": "",
+      "value_conditional": "",
+      "state": false
+    }
+  },
+  {
+    "type": "boxes",
+    "required": false,
+    "label": "¿Con cuáles de los siguientes productos bancarios cuentas?",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "data": [
+      {
+        "label": "Cuenta de ahorro",
+        "value": "Cuenta de ahorro",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "Cuenta corriente",
+        "value": "Cuenta corriente",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "Tarjeta de crédito",
+        "value": "Tarjeta de crédito",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "Fondo de inversión",
+        "value": "Fondo de inversión",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "Crédito estudiantil",
+        "value": "Crédito estudiantil",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "Ninguno",
+        "value": "Ninguno",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      }
+    ],
+    "condicional": {
+      "label": "",
+      "value_conditional": "",
+      "state": false
+    }
+  },
+  {
+    "type": "input",
+    "required": false,
+    "label": "Otro/ ¿Cuál?",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "condicional": {
+      "label": "",
+      "value_conditional": "",
+      "state": false
+    }
+  },
+  {
+    "type": "radio",
+    "required": false,
+    "label": "¿Has hecho compras desde el celular y/o páginas web?",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "data": [
+      {
+        "label": "Si",
+        "value": "1",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      },
+      {
+        "label": "No",
+        "value": "2",
+        "concurrence": false,
+        "concurrence_value": 0,
+        "concurrence_time": 0,
+        "concurrence_now": 0,
+        "state": true
+      }
+    ],
+    "condicional": {
+      "label": "",
+      "value_conditional": "",
+      "state": false
+    }
+  },
+  {
+    "type": "input",
+    "required": false,
+    "label": "¿Qué tipo de compras has hecho?",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "condicional": {
+      "label": "¿Has hecho compras desde el celular y/o páginas web?",
+      "value_conditional": "1",
+      "state": false
+    },
+    "value_conditional": "1"
+  },
+  {
+    "type": "input",
+    "required": false,
+    "label": "Menciona dos billeteras móviles que recuerdes y que operen en Colombia:",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "condicional": {
+      "label": "",
+      "value_conditional": "",
+      "state": false
+    }
+  },
+  {
+    "type": "input",
+    "required": false,
+    "label": "¿Alguien te refirió, quién?",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "condicional": {
+      "label": "",
+      "value_conditional": "",
+      "state": false
+    }
+  },
+  {
+    "type": "photo",
+    "required": false,
+    "label": "Toma una foto del encuestado(a) dentro de la universidad o máximo en un radio de 5 cuadras (la foto debe ser de buena calidad).",
+    "concurrence": false,
+    "concurrence_value": 0,
+    "concurrence_time": 0,
+    "concurrence_now": 0,
+    "condicional": {
+      "label": "",
+      "value_conditional": "",
+      "state": false
+    }
+  }
+]
+
+
+

@@ -1,0 +1,42 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:left" class="box">
+
+    <ul>
+        <ng-container *ngFor= "let item of data">
+            <h3  *ngIf="item.type == 'title'">{{item.label}}</h3>
+        <li *ngIf="item.type != 'title'">
+          
+          <b *ngIf="item.type != 'title'">{{item.label}}</b> 
+          <div *ngIf="item.type == 'select'">
+             <!-- campos de tipo select -->
+              <select >
+                  <option *ngFor= "let option of item.data" value="{{option.value}}">{{option.label}}</option>
+                </select>
+          </div>
+          <!-- campos de tipo texto -->
+          <div *ngIf="item.type == 'input'">
+              <input  type="{{item.type}}">
+          </div>
+          <!-- campos de tipo texto -->
+          <div *ngIf="item.type == 'radio'">
+              <ng-container *ngFor= "let opt of item.data">
+                <input type="radio" name="gender" value="{{opt.label}}"> {{opt.label}}
+              </ng-container>
+          </div> 
+           <!-- campos de tipo checkbox -->
+           <div *ngIf="item.type == 'boxes'">
+             <br>
+              <ng-container *ngFor= "let opt of item.data">
+                <input type="checkbox" name="gender" value="{{opt.label}}"> {{opt.label}}<br>
+              </ng-container>
+          </div>       
+        </li>
+        <br>
+      </ng-container>
+      </ul>
+      
+</div>
+
+
+
+<router-outlet></router-outlet>
